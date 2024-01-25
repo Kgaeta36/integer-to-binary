@@ -1,16 +1,4 @@
-/**********************************************************
- * Queue implementation with a static array.
- * Original code: https://cs.calvin.edu/activities/books/c++/ds/2e/SourcePrograms/Chap08/Figure8.2/
- * Updated by Dr. Byun for CST238.
- * Basic operations:
- *   Constructor: Constructs an empty queue
- *   empty:       Checks if a queue is empty
- *   enqueue:     Modifies a queue by adding a value at the back
- *   front:       Accesses the front queue value; leaves queue unchanged
- *   dequeue:     Modifies a queue by removing the value at the front
- *   display:     Displays the queue elements from front to back
- *
- **********************************************************/ 
+
 
 /*** 
 Title: HW04-2.cpp
@@ -210,32 +198,7 @@ void Queue::dump() const{
 
 int main()
 {
-    // Queue q1;
-    // cout << "Queue created.  Empty? " << boolalpha << q1.empty() << endl;
 
-    // cout << "How many elements to add to the queue? ";
-    // int numItems;
-    // cin >> numItems;
-    // for (int i = 1; i <= numItems; i++) 
-    //     q1.enqueue(100*i);
-
-    // cout << "Contents of queue:\n";
-    // q1.display(); 
-    // cout << "Queue q1 empty? " << q1.empty() << endl;
-
-    // cout << "\nFront value in q1: " << q1.front() << endl << endl;
-
-    // while (!q1.empty())
-    // {
-    //     cout << "Remove front -- Queue contents: ";
-    //     q1.dequeue();
-    //     q1.display();
-    // }
-    // cout << "\nQueue q1 empty? " << q1.empty() << endl;
-    // cout << "Now try to retrieve front value in q1" << endl;
-    // cout << "Front value in q1?" << endl << q1.front() << endl;
-    // cout << "\nNow Try to remove front of q1: " << endl;
-    // q1.dequeue();
     Queue myQueue;
     myQueue.enqueue('H');
     myQueue.enqueue('F');
